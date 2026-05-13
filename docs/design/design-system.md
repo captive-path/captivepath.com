@@ -6,7 +6,7 @@ Modern editorial systems design with restrained character.
 ## Color Palette
 - **Background:** Warm stone / mineral neutral (#F5F0EB or similar)
 - **Primary Text:** Deep graphite (#2A2A2A)
-- **Accent:** Dark teal (#1A5C5A) or forest for CTAs and emphasis
+- **Accent:** Dark teal (#145250) for CTAs, emphasis, and brand icon
 - **Secondary Neutral:** Pale sand or fog for section distinction
 - **Muted:** Lighter graphite for secondary text
 

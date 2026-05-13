@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-05-13 (Session 10 — Brand Asset Update)
+
+### Changed
+- **Favicon**: Replaced white circular icon with teal (#145250) icon on white circular background, +2 stroke thickening for small-size legibility; all three sizes updated (32px, 192px, 180px apple-touch-icon)
+- **Site logo**: Replaced `cp-logo-black.webp` with teal (#145250) circle icon + black text version (original thin stroke weight), same 536×158 WebP format
+- **Footer anchor**: Added Unicode text presentation selector (`&#xFE0E;`) to ⚓ character so it renders in teal CSS color instead of blue emoji; increased size from `text-xs` to `text-base` (~30% larger)
+
+### Notes
+- Favicon uses morphological dilation (+2 disk) for thicker strokes that remain legible at small sizes; logo retains original thin stroke weight
+- Logo WebP file size comparable to original (~5KB); favicon PNGs optimized with optipng
+- All logo references (Nav header, Footer, Layout preload, index.astro JSON-LD) use the same filename so all updated automatically
+
 ## 2026-05-04 (Session 9 — Journal Filter Collapse)
 
 ### Changed
