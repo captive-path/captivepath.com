@@ -4,18 +4,18 @@
 **Captive Path Website** — Premium marketing site for Captive Path, an independent venture platform for what's worth building.
 
 ## Current Sprint
-**S5 — Journal Filter Collapse**
+**S6 — Brand Asset Update**
 
-### Status: Complete (PR #31)
+### Status: Complete (PR #32)
 
-### Last Session (2026-05-04)
-- **Journal filter collapse** (PR #31): Replaced always-visible category filter row with a collapsible "Filter" toggle
-  - Single compact toggle button with chevron icon, collapsed by default
-  - Smooth CSS `grid-template-rows` expand/collapse animation (300ms)
-  - Toggle label updates to show active category name
-  - Full accessibility: `aria-expanded`, `aria-controls`, rotating chevron
+### Last Session (2026-05-13)
+- **Brand asset update** (PR #32): Updated favicon and logo to teal (#145250) brand color
+  - Favicon: teal circle icon on white circular background with +2 stroke thickening for small-size legibility (32px, 192px, 180px)
+  - Site logo: thin-line teal circle icon + black text (original stroke weight, 536×158 WebP)
+  - Footer anchor emoji: text presentation selector for teal CSS color rendering, size increased ~30%
 
 ### Previous Sessions
+- Session 9: Journal filter collapse (PR #31) — collapsible filter toggle with animation
 - Session 8: UI polish (PR #29) — 404 redesign, related reading thumbnails, footer tagline, full-height hero
 - Session 7b: SEO follow-up fixes (5 items), sitewide em-dash removal, verbatim operator copy
 - Session 7: SEO audit implementation (T-101 through T-209), security headers, content expansion, cross-linking
@@ -36,7 +36,7 @@
 - **CI/CD:** GitHub Actions: typecheck, build (`fetch-depth: 0` for git-based sitemap), deploy to Cloudflare Pages (on push to main + PR preview deploys)
 
 ### Last Updated
-2026-05-04
+2026-05-13
 
 ### Sprint Documents
 - [Sprint S5 — Journal Filter Collapse](sprints/sprint-s5-journal-filter-collapse.md)
